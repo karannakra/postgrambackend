@@ -65,7 +65,7 @@ exports.login=(req,res)=>{
                 userId:loadedUser._id.toString()
 
             },
-                'thisismysecret',
+                process.env.secretkey,
                 {expiresIn:'1h'}
                 );
             res.status(200).json({
