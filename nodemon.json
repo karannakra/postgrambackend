@@ -1,0 +1,6 @@
+{
+  "env":{
+    "port": 8080,
+    "URL": "mongodb+srv://karan:karan@shareplace.o2wff.mongodb.net/shareplace?retryWrites=true&w=majority"
+  }
+}
